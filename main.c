@@ -34,12 +34,10 @@ int main(void)
 		i=0;
 
 		//Effectuer les calculs et afficher les divisions successives
-    printf(" %d|2\n", nb );
 		do
 		{
 			tabr[i]=nb%2;
 			nb=nb/2;
-      printf("    %d|%d|2\n", tabr[i], nb);
 			i=i+1;
 
 		}while(nb!=0);
