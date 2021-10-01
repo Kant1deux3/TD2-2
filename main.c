@@ -25,10 +25,9 @@ int main(void)
 
 		//initialiser la valeur du tableau à 0
 		i=0;
-		while (i!=8)
+		for (i=0; i<9; i++)
 		{
 			tabr[i]=0;
-			i++;
 		}
 
 		i=0;
